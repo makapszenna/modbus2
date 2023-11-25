@@ -21,7 +21,7 @@ public class ModbusConfig {
     public ModbusTCPMaster modbusTCPMaster() {
         ModbusTCPMaster tcpListener = new ModbusTCPMaster(host, port);
         try {
-            tcpListener.connect();
+//            tcpListener.connect();
         } catch (Exception e) {
             e.printStackTrace();
         }
